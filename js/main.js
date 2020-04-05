@@ -10,15 +10,15 @@ function getProjectsToDisplay() {
 
 function createProjects(){
     var mineSweeper = createProject('mineSweeper', 'Mine Sweeper', 'Watch your step',
-    'Expose all the board without touching the mines', '../projs/mineSweeper/index.html', null, 
+    'Expose all the board without touching the mines', 'projs/mineSweeper/index.html', null, 
     ['Matrixes', 'Mouse events', 'Recursion', 'Design']);
     
     var simon = createProject('simon', 'Simon', 'When simon says you ask how high',
-    'Follow simon steps and copy them', '../projs/simon/game.html', null, 
+    'Follow simon steps and copy them', 'projs/simon/game.html', null, 
     ['Mouse events', 'Design']);
 
     var bookShop = createProject('bookShop', 'Book Shop', 'Books is steimatzky', 
-    'read and rate my books (you can even update their price)', '../projs/orGubesBooksShop/index.html', null, ['Inputs', 'Design']);
+    'read and rate my books (you can even update their price)', 'projs/orGubesBooksShop/index.html', null, ['Inputs', 'Design']);
 
     gProjects = [mineSweeper, simon, bookShop];
     return gProjects
