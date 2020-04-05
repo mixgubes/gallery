@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+         <!--game title-->
+        <title>Simon game</title>
+        <link rel="stylesheet" href="css/game.css" />
+    </head>
+
+    <body>
+
+        <div class="site">
+            <div class="outFrame">
+                <div class="inFrame">
+                    
+                    <div class="gameStart" id="startGame">
+                        <img class="startButton" id="startButton" src="img/Start.png"onclick="startClicked(this)">
+                        <img class="exitButton" id="exitButton" src="img/Exit.png" > 
+                        <img class="background" id="openScreen" src="img/background2.png">
+                    </div>
+                    <div id="bord">
+                    <div class="button" id="blue">
+                        <img class="blueButton" id="blueButton" src="img/blue pressed.png">
+                        <img class="blueButtonNP" id="NPBlueButton" src="img/blue not pressed.png" onclick="blueClicked(this)">
+                    </div>
+                    <div class="button" id="red">
+                        <img class="redButton" id="redButton" src="img/red pressed.png">
+                        <img class="redButtonNP" id="NPRedButton" src="img/red not pressed.png" onclick="redClicked(this)">
+                    </div>
+                    <div class="button" id="yellow">
+                        <img class="yellowButton" id="yellowButton" src="img/yellow pressed.png">
+                        <img class="yellowButtonNP" id="NPYellowButton" src="img/yellow not pressed.png" onclick="yellowClicked(this)">
+                    </div>
+                    <div class="button" id="green">
+                        <img class="greenButton" id="greenButton" src="img/green pressed.png">
+                        <img class="greenButtonNP" id="NPGreenButton" src="img/green not pressed.png" onclick="greenClicked(this)">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>

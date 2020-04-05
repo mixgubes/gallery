@@ -1,0 +1,96 @@
+.inFrame{
+    height: 800px;
+    width: 600px;
+    position: absolute;
+}
+.gameStart{
+    height: 800px;
+    width: 600px;
+    margin-left: 300px;
+    position: absolute;
+}
+.gameStart .exitButton{
+    width: 250px;
+    height: 150px;
+    margin-right: 200px;
+    margin-left: 175px;
+    margin-top: 400px;
+    position: absolute;
+}
+.gameStart .startButton{
+    width: 250px;
+    height: 150px;
+    margin-left: 175px;
+    margin-top: 250px;
+    position: absolute;
+}
+.gameBackground{
+    width: 600px;
+    height: 800px;
+    position: absolute;
+}
+.bord{
+    height: 800px;
+    width: 600px;
+}
+.button{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+}
+
+.button .blueButtonNP{
+    height: 400px;
+    width: 300px;
+    margin-left: 300px;
+    position: absolute;
+}
+.button .redButtonNP{
+    height: 400px;
+    width: 300px;
+    margin-left: 600px;
+    position: absolute;
+}
+.button .yellowButtonNP{
+    height: 400px;
+    width: 300px;
+    margin-top: 400px;
+    margin-left: 300px;
+    position: absolute;
+}
+.button .greenButtonNP{
+    height: 400px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 400px;
+    position: absolute;
+}
+.button .blueButton{
+    height: 400px;
+    width: 300px;
+    margin-left: 300px;
+    position: absolute;
+}
+.button .redButton{
+    height: 400px;
+    width: 300px;
+    margin-left: 600px;
+    position: absolute;
+}
+.button .yellowButton{
+    height: 400px;
+    width: 300px;
+    margin-top: 400px;
+    margin-left: 300px;
+    position: absolute;
+}
+.button .greenButton{
+    height: 400px;
+    width: 300px;
+    margin-left: 600px;
+    margin-top: 400px;
+    position: absolute;
+}
+.hide{
+    display: none;
+}

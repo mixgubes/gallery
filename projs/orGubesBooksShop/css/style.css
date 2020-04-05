@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(255, 245, 185);
+}
+.main-content{
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: fit-content;
+    min-height: 60vh;
+    width: 80%;
+}
+.table-content{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 9, 102);
+    border-radius: 15px;
+    width: 80%;
+    height: 87vh;
+    margin-top: 20px;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgb(26, 9, 102);
+    border-radius: 15px;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: rgb(245, 240, 229);
+    width: 100%;
+}
+th{
+    padding: 1em;
+}
+td{
+    padding: 0.5em;
+    border-top: solid 1px;
+}
+.id-display{
+    width: 4em;
+}
+.action-bar h1{
+    display: inline-block;
+}
+.add-book-button{
+    float: right;
+    width: 2.5em;
+    border: solid;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 0.1em;
+    margin: -0.1em;
+    background-color: crimson;
+}
+.button{
+    background-color: crimson;
+    border: solid;
+    border-radius: 20px;
+    padding: 0.5em 2em;
+    cursor: pointer;
+}
+.rating-screen{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1em;
+}
+.rate{
+    width: 1em;
+    padding: 0 1em;
+}
+.rate-button{
+    cursor: pointer;
+}
+.modal{
+    position: fixed;
+    top: 20px;
+    left: 7.5em;
+    background-color: rgb(224, 229, 238);
+    width: 80vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 12px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(37, 37, 37);
+    border: 0.2em solid rgb(17, 33, 68);
+    border-radius: 15px;
+}
+.modal-exit{
+    align-self: flex-start;
+    background-color: rgb(214, 214, 214);
+    padding: 0.2vh 0.4vw;
+    border: solid 0.7px rgba(88, 88, 88, 0.212);
+    border-radius: 2px;
+    cursor: pointer;
+}
+.bookName{
+    margin:0 0 1em 1em;
+    font-size: 2em;
+    color: rgb(26, 9, 102);
+}
+.bookText{
+margin-bottom: 10px;
+}
+.bookImg img{
+    display: flex;
+    width: 20vw;
+    margin: 5px;
+    border-radius: 5px;
+}
+.page-control-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    height: fit-content;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: rgb(26, 9, 102);
+    border: solid;
+    border-radius: 8px;
+    background-color: rgb(245, 240, 229);
+}
+.page-number{
+    margin: 0 1em;
+}
+.page-control-button{
+    cursor: pointer;
+    padding: 2px 8px;
+}
+.back-button{
+    border-right: solid 3px;
+}
+.next-button{
+    border-left: solid 3px;
+}
+.hide{
+    display: none;
+}
+.inline-block{
+    display: inline-block;
+}
+.cursor-pointer{
+    cursor: pointer;
+}

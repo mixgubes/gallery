@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">   
+        <!--set the words in the tab-->
+        <title>Projects home</title>             
+        <link rel="stylesheet" href="css/index.css" />
+    </head>
+
+    <body onload="init()">
+        <div class="container">
+            <div class="screen">
+                <div class="time">00:00</div>
+                <div class="restart">
+                    <button onclick="init()" class="restart-button">😊</button>
+                    <button onclick="undo()">UNDO</button>
+                </div>
+                
+                <div class="level-buttons">
+                    <button onclick="setLevel(1)" class="button">level 1</button>
+                    <button onclick="setLevel(2)" class="button">level 2</button>
+                    <button onclick="setLevel(3)" class="button">level 3</button>
+                </div>
+            </div>
+                    <div class="sub-screen">
+                        <div class="mines-remaining">
+                            <div class="mine-icon"></div>
+                            <div class="mine-number">0</div>
+                        </div>
+                        <div class="life-remaining">
+                            <div class="life-icon">💖💖💖</div>
+                        </div>
+                        <div onclick="safeCell()" class="safe-click">
+                            <div class="safe-icon">🙌</div>
+                            <div class="safe-number"></div>
+                        </div>
+                    </div>
+            <div oncontextmenu="return false" class="board">
+
+            </div>
+            <div class="hint">
+                
+            </div>
+        </div>
+    <script src="js/main.js"></script>
+    <script src="js/hint.js"></script>
+    <script src="js/gameOver.js"></script>
+    <script src="js/render.js"></script>
+    </body>
+ 
+</html>
